@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    margin: 0px;
+}
+
+h1{
+    color:rgb(9, 167, 119);
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.subtitulo{
+    font-size: 14px;
+    font-style:oblique;
+    
+}
+
+#subtitulo2{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: violet;
+}
+
+a:hover{
+    font-size: 20px;
+}
+
+a:active{
+    color: aquamarine;
+}
+
+.card{
+    background-color: white;
+    width: 50%;
+    min-height: 600px;
+    border-radius: 10px;
+    box-shadow: 10px 5px lightgray;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+.fixado{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+.menu{
+    position: sticky;
+    top: 2px;
+    background-color: lightgray;
+}
+
+.preco{
+    color:green;
+    font-size: 18px;
+    font-style: Arial;
+    text-decoration: underline;
+}
+
+#linha-horizontal {
+    width: 937px;
+    border: 1px solid #000;
+}
+
+.imagem{
+    width: 200px;
+}
+
